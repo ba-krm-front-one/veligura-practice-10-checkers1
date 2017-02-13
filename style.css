@@ -1,0 +1,36 @@
+body{
+    max-width: 1920px;
+    margin: auto;
+}
+.block-checkers{
+    border: 5px solid black;
+    width: 1000px;
+    height: 1000px;
+    margin: 50px;
+}
+.block-checkers ul {
+    width: 1000px;
+    font-size: 0;
+}
+.block-checkers li{
+    float: left;
+    overflow:hidden;
+    background:white;
+    width:125px;
+    height: 125px;
+    position: relative;
+}
+.checkers-content li:nth-child(odd){
+    background: chocolate;
+}
+.checkers-content-2 li:nth-child(even){
+    background: chocolate;
+}
+img{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    top: 12.5px;
+    left: 12.5px;
+}
